@@ -7,4 +7,4 @@ The program uses analog sensors which detects light reflection and converts that
 
 After much experimenting, I decided using PID was better for this project. This is because PID tends to have a much smoother movement compared to 'BangBang'.
 
-In PID, when the m3pi robot turns, it turns at a speed proportional to margin distance of error. If there is an external force or environment acting on the m3pi robot, the program measures the integral error and acts accordingly. Similarly, if there is an alignment or directional error, the program calculates the rate of change of the error (derivative) and acts accordingly in order to go back into place.
+In PID, when the m3pi robot turns, it turns at a speed proportional to margin distance of error. If there is an external force or environment acting on the m3pi robot, the program measures the integral error and acts accordingly. Similarly, if there is an alignment or directional error, the program calculates the rate of change of the error (derivative) and acts accordingly in order to go back into place. Thus, when travelling down a narrow pathway, it is much more efficient than the 'BangBang' movement.
